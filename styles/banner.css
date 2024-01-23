@@ -1,0 +1,28 @@
+.banner{
+    background: var(--cor-pesquisa);
+    color: var(--cor-cabecalho);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__texto{
+    font-weight: 500;
+    margin: 1em;
+}
+
+.banner__pesquisa{
+    background: transparent;
+    color: var(--cor-cabecalho);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 24px;
+    border: 1px solid var(--cor-cabecalho);
+    width: 300px;
+}
