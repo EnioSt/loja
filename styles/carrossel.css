@@ -6,6 +6,7 @@
     font-weight: 700;
     background-color: var(--cor-cabecalho);
     padding: 1em 0 0.5em 0;
+    text-transform: uppercase;
 }
 
 .swiper-slide img{
@@ -70,4 +71,8 @@
     color: var(--cor-cabecalho);
     font-weight: 700;
     text-decoration: none;
+}
+
+.descricao__estrelas{
+    margin-bottom: 0.5em;
 }
