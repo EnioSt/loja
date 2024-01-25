@@ -67,7 +67,7 @@
 }
 
 .container__imagem-transparente{
-    display: none;
+    display: flex;
 }
 
 .cabecalho__menu-hamburger{
@@ -99,9 +99,24 @@
         color: var(--preto);
     }
     .container__imagem-transparente{
-        display: flex;
+        display: none;
     }
     .cabecalho__menu-hamburger{
         display: none;
+    }
+    .opcoes__botao:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+    .opcoes__botao{
+        display: none;
+    }
+    .lista-menu__link:hover{
+        background-color: var(--azul);
+        color: var(--cor-cabecalho);
+    }
+    .opcoes__item:hover{
+        background-color: var(--azul);
+        color: var(--cor-cabecalho); 
     }
 }
